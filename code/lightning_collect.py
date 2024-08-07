@@ -6,7 +6,7 @@ import datetime
 from io import BytesIO
 
 today = f'{uk_time.year}' + f'{uk_time.month:02}' + f'{uk_time.day:02}'
-today_csv = f'/Users/kento-tanaka/Documents/取材関連/気候変動/雷/Github/lightning_{today}.csv'
+today_csv = f'data/lightning_{today}.csv'
 
 # Exist file
 try:
