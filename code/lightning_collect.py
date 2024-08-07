@@ -7,7 +7,7 @@ from io import BytesIO
 # UK time
 uk_time = datetime.datetime.now() - datetime.timedelta(hours=9)
 today = f'{uk_time.year}' + f'{uk_time.month:02}' + f'{uk_time.day:02}'
-today_csv = f'.data/lightning_{today}.csv'
+today_csv = f'./data/lightning_{today}.csv'
 
 # Exist file
 try:
